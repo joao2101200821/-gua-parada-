@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Água Parada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ddd 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .main-content {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .main-content p {
+            margin-bottom: 20px;
+        }
+        .alert {
+            background-color: #ffdddd;
+            color: #d8000c;
+            border-left: 6px solid #d8000c;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Informações sobre Água Parada</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>O que é água parada?</h2>
+            <p>A água parada refere-se a água que fica acumulada em locais sem movimento, como recipientes, poças ou qualquer outro lugar onde a água possa se acumular e permanecer por um período prolongado.</p>
+
+            <h2>Riscos associados</h2>
+            <p>Água parada pode ser um foco de proliferação de mosquitos, especialmente o mosquito Aedes aegypti, que é conhecido por transmitir doenças como dengue, zika e chikungunya. Além disso, água parada pode criar condições propícias para o crescimento de algas e bactérias, o que pode afetar a qualidade da água.</p>
+
+            <h2>Cuidados e Prevenção</h2>
+            <p>Para evitar problemas relacionados à água parada, é importante:</p>
+            <ul>
+                <li>Eliminar qualquer acúmulo de água ao redor de casa, como em vasos de plantas, pneus velhos e recipientes vazios.</li>
+                <li>Certificar-se de que ralos e calhas estejam limpos e desobstruídos.</li>
+                <li>Armazenar água potável em recipientes fechados.</li>
+                <li>Utilizar larvicidas em locais onde a água não pode ser eliminada.</li>
+            </ul>
+
+            <div class="alert">
+                <strong>Atenção:</strong> Sempre procure informações atualizadas sobre medidas de prevenção e controle de doenças transmitidas por mosquitos. Sua saúde e segurança são muito importantes!
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Informações sobre Água Parada. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
